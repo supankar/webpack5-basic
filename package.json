@@ -1,0 +1,37 @@
+{
+  "name": "webpack5-basic",
+  "version": "1.0.0",
+  "description": "Webpack 5 basic",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrhm-dev/webpack4-demo.git"
+  },
+  "author": "Supankar Banik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrhm-dev/webpack4-demo/issues"
+  },
+  "homepage": "https://github.com/mrhm-dev/webpack4-demo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "jshint": "^2.13.0",
+    "mini-css-extract-plugin": "^2.1.0",
+    "sass": "^1.35.2",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
